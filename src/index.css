@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "Atyp Text";
+  src: url("./assets/fonts/atyp/AtypText-Thin.eot");
+  src: local("Atyp Text Thin"), local("AtypText-Thin"),
+    url("./assets/fonts/atyp/AtypText-Thin.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/atyp/AtypText-Thin.woff2") format("woff2"),
+    url("./assets/fonts/atyp/AtypText-Thin.woff") format("woff"),
+    url("./assets/fonts/atyp/AtypText-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Atyp Text";
+  src: url("./assets/fonts/atyp/AtypText-Regular.eot");
+  src: local("Atyp Text"), local("AtypText-Regular"),
+    url("./assets/fonts/atyp/AtypText-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/atyp/AtypText-Regular.woff2") format("woff2"),
+    url("./assets/fonts/atyp/AtypText-Regular.woff") format("woff"),
+    url("./assets/fonts/atyp/AtypText-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Atyp Text";
+  font-weight: 100;
+}
+
+main {
+  position: relative;
+  top: 5em;
+  margin-bottom: 5em;
+  min-height: 60vh;
+}
+
+.container {
+  padding-left: 4em;
+  padding-right: 4em;
+  border-bottom: 1px solid #eaecf0;
+}
+
+.section {
+  padding: 5em;
+  border-left: 1px solid #eaecf0;
+  border-right: 1px solid #eaecf0;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.heading {
+  font-family: "Japanese 3017", sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.sub-heading {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+.description {
+  font-size: 1.25rem;
+  text-align: justify;
+  margin-top: 1em;
+  line-height: 40px;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+.btn {
+  border: none;
+  font-size: 1rem;
+  font-weight: normal;
+  padding: 1.5em 2.5em;
+}
+
+.btn .btn-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn span {
+  width: 2.5em;
+  background-color: #202124;
+  height: 1px;
+}
+
+.btn:hover {
+  background-color: #7a7e88;
+}

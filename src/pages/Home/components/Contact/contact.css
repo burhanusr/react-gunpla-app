@@ -1,0 +1,23 @@
+#root .contact {
+  background: url("../../../../assets/images/background.png"), #202124;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 2.5em;
+  padding: 5em;
+}
+
+.contact .contact-section {
+  color: #ffff;
+  width: 60%;
+  margin-bottom: 40px;
+}
+
+.contact-section .description {
+  font-size: 1rem;
+}
+
+.contact .btn {
+  background-color: #ffff;
+  color: #202124;
+}

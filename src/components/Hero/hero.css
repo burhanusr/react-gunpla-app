@@ -1,0 +1,32 @@
+.hero .heading {
+  line-height: 100px;
+}
+
+.hero .description {
+  font-size: 1.5rem;
+  line-height: 64px;
+  margin-bottom: 1.8em;
+}
+
+.hero .rectangle {
+  width: 1000px;
+  height: 30px;
+  background-color: #eaecf0;
+  position: absolute;
+  top: 232px;
+  z-index: -1;
+}
+
+.hero .btn {
+  font-size: 1.5rem;
+  padding: 1em 1.7em;
+  background-color: #202124;
+  color: #ffff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.hero .btn span {
+  background-color: #ffff;
+}

@@ -1,0 +1,24 @@
+.gallery-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-left: 1px solid #eaecf0;
+  border-right: 1px solid #eaecf0;
+}
+
+.gallery-text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-text p {
+  writing-mode: vertical-rl;
+  font-weight: 500;
+  font-size: 1.5rem;
+  letter-spacing: 0.5em;
+}
+
+.grey {
+  background-color: #f9fafb;
+}

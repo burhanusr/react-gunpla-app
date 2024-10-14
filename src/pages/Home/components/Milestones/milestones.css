@@ -1,0 +1,32 @@
+.milestones .section {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr 1fr;
+  align-items: center;
+  gap: 20px;
+}
+
+.milestones .heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.milestones h2 span {
+  width: 50%;
+  background-color: #202124;
+  height: 1px;
+}
+
+.milestones .description {
+  padding-left: 1.5em;
+}
+
+.milestones .description span {
+  font-size: 2.5rem;
+  display: block;
+}
+
+.milestones .border {
+  border-left: 1px solid #eaecf0;
+}

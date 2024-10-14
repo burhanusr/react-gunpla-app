@@ -1,0 +1,31 @@
+#root .carousel .section {
+  overflow: hidden;
+  display: flex;
+  white-space: nowrap;
+  padding: 3.75em 0;
+
+  mask-image: linear-gradient(
+    to right,
+    hsl(0 0% 0% / 0),
+    hsl(0 0% 0% / 1) 10%,
+    hsl(0 0% 0% / 1) 90%,
+    hsl(0 0% 0% / 0)
+  );
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.sponsor-slide {
+  animation: 20s slide infinite linear;
+}
+
+.sponsor-slide img {
+  margin: 0 8em;
+}
